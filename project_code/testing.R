@@ -12,3 +12,6 @@ if(.Platform$OS.type == "unix"){
 }
 wd = paste0(prefix,"/git/emdi")
 setwd(wd)
+
+# Test data
+data("eusilcA_smp")
